@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Signup() {
+function Navbar() {
   return (
     <div>
-      
+      qq
     </div>
   )
 }
 
-export default Signup
+export default Navbar
