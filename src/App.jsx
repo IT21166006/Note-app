@@ -4,16 +4,18 @@ import Home from './pages/Home/Home.jsx';
 import Login from './pages/Login/Login.jsx';
 import Signup from './pages/Signup/Signup.jsx';
 
-function App() {
-  return (
-    <Router>
+const routes =(
+  <Router>
       <Routes>
         <Route path="/dashboard" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
     </Router>
-  );
+
+);
+function App() {
+  return <div>{routes}</div>
 }
 
 export default App;
